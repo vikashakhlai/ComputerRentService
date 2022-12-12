@@ -1,0 +1,241 @@
+
+html, body{width:100%; height:1920px; margin:0}
+
+body,html{
+    background: radial-gradient(at bottom left,rgb(0, 0, 0),rgb(40, 40, 41) ) no-repeat;
+    color: white;
+}
+.background{
+    width: 530px;
+    height: 820px;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container {
+    padding: 0 8px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px white solid;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+input:hover {
+    border-bottom: 1px yellow solid;
+    transition: 0.6s;
+}
+
+input:hover::-webkit-input-placeholder { /* WebKit browsers */
+    color:white;
+    transition: 0.6s;
+}
+
+button{
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-color: white;
+    padding: 0.7em 2em;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(84, 84, 84, 0.44);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+}
+
+button:hover {
+    background-color: black;
+    border: 2px yellow solid;
+    color: white;
+    transition: 0.7s;
+}
+
+.row{
+    width: 100%;
+}
+
+.main-header {
+    font-size: 48px;
+    color: white;
+}
+
+.personalInfo {
+    width: 100%;
+}
+
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background: linear-gradient(
+            #a818ad,
+            #f623c8
+    );
+    left: -80px;
+    top: -80px;
+}
+.shape:last-child{
+    background: linear-gradient(
+            to right,
+            #2f9aff,
+            #19c5f0
+    );
+    right: -90px;
+    bottom: -20px;
+}
+
+.container
+{
+    background-color: black;
+    margin-top: 30px;
+    box-shadow: 0 0 20px white;
+    margin-left: auto;
+    margin-right:  auto;
+    width: auto;
+    border-collapse: collapse;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.container:hover {
+    box-shadow: 0 0 40px yellow;
+    border: 2px solid yellow;
+    transition: 0.6s;
+}
+
+.neededInfo {
+    margin-top: 8px;
+}
+
+.user-table {
+    margin: 0 auto;
+    font-size: 28px;
+    text-align: center;
+}
+
+.user-table td {
+    width: 120px;
+}
+
+.nextPrev, .logOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextPrev {
+    visibility: hidden;
+}
+
+table {
+    margin-left: 0;
+    margin-bottom: 8px;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+caption {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.someList h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.button {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    padding: 0.7em 2em;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(84, 84, 84, 0.44);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+}
+
+.button:hover {
+    background-color: black;
+    border: 2px yellow solid;
+    color: white;
+    transition: 0.7s;
+}
+
+.logReg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logReg a {
+    text-decoration: none;
+}
+
+.image-home {
+    width: 32px;
+    height: 32px;
+}
+
+.computer-block {
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.computer-block p {
+    font-size: 18px;
+}
+
+.computer-block button {
+    padding: 4px;
+}
+
+.user-icon img {
+    width: 40px;
+    height: 40px;
+}
