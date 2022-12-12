@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/index.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/registration.css}">
+    <script th:src="@{../js/reg.js}"></script>
+</head>
+<body>
+<div class="container">
+    <div class="registration-container">
+        <h3>Регистрация</h3>
+        <a href="/"><img class="image-home" src="../icons/home.png" alt="home"></a><br>
+    </div>
+    <input type="text" class="registration-input" id="login" placeholder="логин"><br>
+    <input type="password" class="registration-input" id="password" placeholder="пароль"><br>
+    <input type="email" class="registration-input" id="email" placeholder="email"><br>
+    <button class="registration-button" onclick="reg()" th:method="post">Регистрация</button><br>
+    <div id="message"></div>
+</div>
+</body>
+</html>

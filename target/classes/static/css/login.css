@@ -1,0 +1,26 @@
+.container {
+    width: 540px;
+}
+
+input {
+    width: 520px;
+}
+
+button {
+    margin-top: 8px;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login-container h3 {
+margin: 40px auto;
+}
+
+.login-container a:hover {
+
+}
